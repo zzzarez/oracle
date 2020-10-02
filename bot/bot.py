@@ -5,7 +5,7 @@ updater = Updater(token='1009885004:AAFJhg74p0motvBmv6lkyVwvHgF95thaSYY', use_co
 dispatcher = updater.dispatcher
 
 def startCommand(bot, update):
-    bot.send_message(chat_id=update.message.chat_id, text='Привет , давай пообщаемся?')
+    bot.send_message(chat_id=update.message.chat_id, text='Привет ,  давай пообщаемся?')
 
 def textMessage(bot, update):
     response = 'Получил Ваше сообщение:  ' + update.message.text
